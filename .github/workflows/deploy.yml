@@ -16,6 +16,5 @@ jobs:
 
       - name: Rebuild and restart container
         run: |
-          cd ~/phishing-url-detection-api
           docker-compose down
           docker-compose up -d --build
