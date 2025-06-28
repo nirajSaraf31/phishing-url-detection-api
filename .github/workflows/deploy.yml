@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Pull latest code
         run: |
-          cd ~/actions-runner/_work/phishing-url-detection-api/phishing-url-detection-api
+          cd ~/phishing-url-detection-api
           git pull origin main
 
       - name: Rebuild and restart container
