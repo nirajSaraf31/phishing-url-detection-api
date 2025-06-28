@@ -42,7 +42,7 @@ def get_prediction_from_url_model(test_url):
 @app.get("/")
 def test_request():
     
-    return {"Test": "Hello From MLAPI"}
+    return {"Test": "New changes tested."}
 
 @app.get("/predict")
 def get_url(url: str):
