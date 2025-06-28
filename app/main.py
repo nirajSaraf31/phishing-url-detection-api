@@ -42,7 +42,7 @@ def get_prediction_from_url_model(test_url):
 @app.get("/")
 def test_request():
     
-    return {"Test": "New changes tested."}
+    return {"Test": "Tutorial test"}
 
 @app.get("/predict")
 def get_url(url: str):
