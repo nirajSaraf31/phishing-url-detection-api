@@ -6,16 +6,11 @@ from urllib.parse import urlparse
 from tld import get_tld
 import os.path
 from urllib.parse import urlparse
-import pandas as pd
 import itertools
-from sklearn.metrics import classification_report,confusion_matrix, accuracy_score
-from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import xgboost as xgb
 import os
-from wordcloud import WordCloud
 
 
 app = FastAPI()
